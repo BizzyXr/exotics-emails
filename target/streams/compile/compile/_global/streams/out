@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/abanda/Desktop/pons-projects/colorado-shop-api/app/module/SilhouetteModule.scala:41:10: not found: type UserService[0m
+[0m[[0m[31merror[0m] [0m[0m    bind[UserService].to[UserServiceImpl][0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abanda/Desktop/pons-projects/colorado-shop-api/app/module/SilhouetteModule.scala:41:26: not found: type UserServiceImpl[0m
+[0m[[0m[31merror[0m] [0m[0m    bind[UserService].to[UserServiceImpl][0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/abanda/Desktop/pons-projects/colorado-shop-api/app/module/SilhouetteModule.scala:70:39: not found: type UserService[0m
+[0m[[0m[31merror[0m] [0m[0m  def provideEnvironment(userService: UserService,[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

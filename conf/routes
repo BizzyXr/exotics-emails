@@ -1,0 +1,19 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Swagger API
+GET         /swagger.json                                                   controllers.ApiHelpController.getResources
+
+# Home page
+GET         /                                                               controllers.ApplicationController.index
+
+# Order
++nocsrf
+POST        /api/v1/checkout                                                controllers.OrderController.checkout
+
++nocsrf
+POST        /api/v1/contact                                                 controllers.OrderController.contact
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file                                                   controllers.Assets.versioned(path="/public", file: Asset)
